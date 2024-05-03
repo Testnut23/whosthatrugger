@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: comic sans ms;
+}
+
+body {
+    background-color: rgb(36, 36, 36);
+}
+
+.container {
+    position: absolute;
+    transform: translate(-50%, 0%);
+    left: 50%;
+}
+
+.logo {
+    text-align: center;
+}
+    .logo img {
+        width: 250px;
+        margin-top: 20px;
+        filter: drop-shadow(0px 7px 10px rgb(17, 17, 17));
+    }
+
+.sprites {
+    margin-top: 20px;
+    text-align: center;
+}
+    .sprites img {
+        width: 275px;
+        filter: brightness(0);
+    }
+
+    .sprites .rAnswer {
+        font-size: 18px;
+        margin-top: 10px;
+        display: none;
+    }
+
+    .sprites .score {
+        font-size: 20px;
+        color: white;
+    }
+
+.answer {
+    padding: 0;
+    width: 260px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding-bottom: 50px;
+}
+    .answer input {
+        background-color: rgb(49, 49, 49);
+        border: none;
+        color: white;
+        padding: 10px;
+        font-size: 20px;
+        width: 200px;
+        height: 50px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .answer input:focus {
+        outline: none;
+        border: 1px solid white;
+    }
+
+    .answer button {
+        width: 60px;
+        height: 50px;
+        border: none;
+        box-sizing: border-box;
+        color: white;
+        background-color: rgb(68, 125, 211);
+        font-weight: bold;
+        font-size: 30px;
+        float: right;
+    }
+
+    .answer button:active {
+        background-color: rgb(42, 94, 172);
+    }
+
+    @media only screen and (max-width: 720px) {
+        .logo img {
+            width: 80%;
+        }
+
+        .sprites img {
+            width: 90%;
+        }
+    }
