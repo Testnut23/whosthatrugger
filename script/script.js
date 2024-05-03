@@ -52,11 +52,11 @@ function answerSubmit() {
 // -------------------------- Pokemon's arrays --------------------------
 
 var pokemon = [
-    ["sprites/001.png", "Slerf"],
-    ["sprites/002.png", "Ansem"],
-    ["sprites/003.png", "Yelo"],
-    ["sprites/004.png", "Rektober"],
-    ["sprites/005.png", "Ginger"],
-    ["sprites/006.png", "Yogurt"],
+    ["sprites/001.png", "slerf"],
+    ["sprites/002.png", "ansem"],
+    ["sprites/003.png", "yelo"],
+    ["sprites/004.png", "rektober"],
+    ["sprites/005.png", "ginger"],
+    ["sprites/006.png", "yogurt"],
     
 ]
